@@ -5,8 +5,8 @@ import {
 } from "matrix-bot-sdk";
 
 
-const homeserverUrl = "https://chat.soziale.cloud";
-const accessToken = "syt_eXVt_OjKPptTMfHjfRkGnPOwo_1ZP35p";
+const homeserverUrl = "";
+const accessToken = "";
 const storage = new SimpleFsStorageProvider("store.json");
 
 const client = new MatrixClient(homeserverUrl, accessToken, storage);
